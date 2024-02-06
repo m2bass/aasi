@@ -1,0 +1,83 @@
+body {
+  margin-top: 105px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #353277;
+  opacity: 0.9;
+  background: #fff; }
+
+.navbar .nav-item {
+  font-size: 1.3rem;
+  padding-right: 1.3rem; }
+
+.carousel-item {
+  height: 500px; }
+
+.carousel-image-1 {
+  background: url(../img/education_ngo.jpg);
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url(../img/learning_africa.jpg);
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url(../img/sports.jpg);
+  background-size: cover; }
+
+.carousel-image-4 {
+  background: url(../img/edu.jpg);
+  background-size: cover; }
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url(../img/bg_header.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff; }
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); }
+
+#objectives {
+  background-color: #353277;
+  color: #fff; }
+
+#objective-section .fas {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px; }
+
+#whatwedo-section .fas {
+  color: #3b3d87; }
+
+#main-footer {
+  background: #000;
+  color: #fff; }
+
+.form-messages {
+  width: 70%;
+  height: 30px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  color: #333; }
+
+.success {
+  font-weight: bold;
+  color: green;
+  padding-bottom: 5px; }
+
+.error {
+  font-weight: bold;
+  padding-bottom: 5px;
+  color: red; }
