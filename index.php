@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AASI is a NGO in Nigeria that aims at contributing positively through programs like empowerment, education, leadership, health, child care, vocational training and sports."
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/img/favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/img/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="/img/favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta
+      name="msapplication-config"
+      content="/img/favicons/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>
+      Aratumi Aminullah Support Initiatives (AASI) | NGO in Lagos, Nigeria
+    </title>
+  </head>
+  <body id="home" data-spy="scroll" data-target="#main-nav">
+    <nav class="navbar navbar-expand-md fixed-top navbar-light" id="main-nav">
+      <div class="container">
+        <a href="#home" class="navbar-brand">
+          <img
+            src="img/aasi_logo.jpg"
+            width="50"
+            height="50"
+            alt="Aratumi Aminullah Support Initiatives (AASI) logo"
+          />
+          <h3 class="d-inline align-middle text-success">AASI</h3>
+        </a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#objectives" class="nav-link">Our Objectives</a>
+            </li>
+            <li class="nav-item">
+              <a href="#whatwedo" class="nav-link">What We Do</a>
+            </li>
+            <li class="nav-item">
+              <a href="#donate" class="nav-link">Donate Now</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--CAROUSEL-->
+    <section id="showcase">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="blue-overlay">
+            <div class="carousel-item carousel-image-1 active">
+              <div class="container">
+                <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                  <h1 class="display-3">We Care</h1>
+                  <p class="lead">
+                    Promoting the care, well- being and development of youth and
+                    others in need.
+                  </p>
+                  <a href="#whatwedo" class="btn btn-primary btn-lg"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item carousel-image-2">
+              <div class="container">
+                <div class="carousel-caption d-none d-sm-block mb-5">
+                  <h1 class="display-3">Educational Support</h1>
+                  <p class="lead">
+                    Supporting the youth to develop educational, vocational
+                    skills and resourcefulness.
+                  </p>
+                  <a href="#edu" class="btn btn-success btn-lg">Explore</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item carousel-image-3">
+              <div class="container">
+                <div class="carousel-caption d-none d-sm-block mb-5 text-left">
+                  <h1 class="display-3">Sports Development</h1>
+                  <p class="lead">
+                    Improving physical fitness, supporting good mental health
+                    and building teamwork skills.
+                  </p>
+                  <a href="#whatwedo" class="btn btn-warning btn-lg"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+
+          <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--INFO SECTION-->
+    <section class="py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 align-self-center">
+            <h3 class="text-primary">
+              Aratumi Aminullah Support Initiatives (AASI)
+            </h3>
+            <p class="lead text-dark">
+              The Sovereign God has made it easy for some people to do good and
+              fulfill other people's needs. ASSI mission and vision is to work
+              towards alleviation of poverty, achievement of social justice and
+              saving lives.
+            </p>
+          </div>
+          <div class="col-md-3 d-flex justify-content-center">
+            <img src="img/aasi_logo.jpg" alt="AASI Logo" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--HOME HEADING SECTION -->
+    <section id="home-heading" class="p-5">
+      <div class="dark-overlay">
+        <div class="col">
+          <div class="row">
+            <div class="container pt-5">
+              <h1>Partner With Us To Touch Lives</h1>
+              <p class="d-none d-md-block">
+                We sought to improve lives through overall development,
+                education, health care services, and sports development. Let us
+                join hands and make this possible.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--ABOUT SECTION-->
+    <section id="about" class="bg-success text-white py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center py-5">
+            <h1 class="display-4">ABOUT US</h1>
+            <p class="lead">
+              AASI is a non-profit organization working to improve knowledge,
+              behaviors, skills and the well-being of the youth.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--MORE ABOUT SECTION-->
+    <section id="about-section" class="bg-light text-muted py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="img/girl.jpg"
+              alt="A happy youth"
+              class="img-fluid mb-3 rounded-circle"
+            />
+          </div>
+          <div class="col-md-6">
+            <h3>Believing In Growth & Positivity</h3>
+            <p class="lead">
+              Aratumi Aminullah Support Initiatives (AASI) is a non-governmental
+              organisation that aims to help people fulfil their potentials
+              through education thereby encouraging peace and stability. We
+              believe that in order for a community to prosper there is a need
+              to take into consideration the welfare of the youth.
+            </p>
+            <p class="lead">
+              We are contributing positively to change in social status,
+              economics and the living standards through effective programs like
+              empowerment, education, leadership, health, child care, vocational
+              training and through sports in order to deliver a sustainable
+              outcome.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--OUR OBJECTIVES-->
+    <section id="objectives" class="text-center py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col py-5">
+            <h1 class="display-4">OUR OBJECTIVES</h1>
+            <p class="lead">
+              Promoting the care, well- being and development of youth and
+              others in need.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--OBJECTIVES SECTION-->
+    <section id="objective-section" class="py-5 text-muted">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 order-2">
+            <img
+              src="img/possibility.jpg"
+              alt=""
+              class="img-fluid rounded-circle mb-3"
+            />
+          </div>
+          <div class="col-md-6 order-1">
+            <h3>Exploring All Possibilities</h3>
+            <div class="d-flex pt-3">
+              <div class="p-2 self-align-start">
+                <i class="fas fa-check"></i>
+              </div>
+              <div class="p-2 pl-1 self-align-end">
+                <p>
+                  Support people, especially youth to develop education and
+                  vocational skills and resourcefulness needed to build and
+                  secure a stable future.
+                </p>
+              </div>
+            </div>
+
+            <div class="d-flex">
+              <div class="p-2 self-align-start">
+                <i class="fas fa-check"></i>
+              </div>
+              <div class="p-2 pl-1 self-align-end">
+                <p>Initiatives for promoting human right, values and ethics.</p>
+              </div>
+            </div>
+
+            <div class="d-flex">
+              <div class="p-2 self-align-start">
+                <i class="fas fa-check"></i>
+              </div>
+              <div class="p-2 pl-1 self-align-end">
+                <p>
+                  Promote the care, well- being and development of youth and
+                  others in need.
+                </p>
+              </div>
+            </div>
+
+            <div class="d-flex">
+              <div class="p-2 self-align-start">
+                <i class="fas fa-check"></i>
+              </div>
+              <div class="p-2 pl-1 self-align-end">
+                <p>
+                  Initiatives for preventing crime, immoral behaviour, drug
+                  abuse and violence among the young ones.
+                </p>
+              </div>
+            </div>
+
+            <div class="d-flex">
+              <div class="p-2 self-align-start">
+                <i class="fas fa-check"></i>
+              </div>
+              <div class="p-2 pl-1 self-align-end">
+                <p>
+                  Working toward general improvement of globalization and
+                  humanity.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--WHAT WE DO-->
+    <section id="whatwedo" class="py-3 bg-warning text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center py-5">
+            <h1 class="display-4">WHAT WE DO</h1>
+            <p class="lead">
+              Health | Education | Development | Sports Development
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--ACCORDION/ICONS-->
+    <section id="whatwedo-section" class="pt-5 pb-2 bg-light text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 order-2">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <div>
+                      <a
+                        href="#collapse1"
+                        data-toggle="collapse"
+                        data-parent="#accordion"
+                      >
+                        <i class="fas fa-arrow-circle-down"></i> Health
+                      </a>
+                    </div>
+                  </h5>
+                </div>
+
+                <div id="collapse1" class="collapse show">
+                  <div class="card-body">
+                    Aratumi Aminullah Support Initiatives (AASI) seeks to help
+                    ensure that the poor and vulnerable in the society have
+                    access to affordable and basic health and medi-care. ASSI
+                    supports efforts to build awareness for health challenges
+                    for the needy and vulnerable and develop new ways to finance
+                    health conditions and programs. These are done by seeking
+                    partnership will other organizations and associations.
+                    Seminars on health issues are organised periodically in
+                    which medical experts, health officers/ workers are always
+                    available to assist, advise and counsel people with health
+                    challenges.
+                  </div>
+                </div>
+              </div>
+
+              <div id="edu" class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <div>
+                      <a
+                        href="#collapse2"
+                        data-toggle="collapse"
+                        data-parent="#accordion"
+                      >
+                        <i class="fas fa-arrow-circle-down"></i> Education
+                      </a>
+                    </div>
+                  </h5>
+                </div>
+
+                <div id="collapse2" class="collapse">
+                  <div class="card-body">
+                    An ASSI educational programme seeks to provide opportunities
+                    for youth to access education and training programs with a
+                    view to improving their livelihoods. Since inception in
+                    2018, we have been assisting talented youths with our
+                    programs which include ICT training, vocational and skill
+                    acquisitions, preparatory classes for graduating primary and
+                    secondary schools students, as well as free distribution of
+                    General Certificates Examinations (GCE) forms, and Joint
+                    Admission and Matriculations (JAMB) forms to deserving and
+                    talented students, while those that gained admission into
+                    various higher institutions were also supported.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <div>
+                      <a
+                        href="#collapse3"
+                        data-toggle="collapse"
+                        data-parent="#accordion"
+                      >
+                        <i class="fas fa-arrow-circle-down"></i> Development
+                      </a>
+                    </div>
+                  </h5>
+                </div>
+
+                <div id="collapse3" class="collapse">
+                  <div class="card-body">
+                    At Aratumi Aminullah Support Initiatives, we are poised to
+                    contributing our quota to the development of individuals,
+                    communities, and societies. We believe that growth and
+                    positive change cannot be viable without development to
+                    successfully thrust it. It is against these conditions that
+                    we have put in place projects to drive this agenda of the
+                    organization.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <div>
+                      <a
+                        href="#collapse4"
+                        data-toggle="collapse"
+                        data-parent="#accordion"
+                      >
+                        <i class="fas fa-arrow-circle-down"></i> Sports
+                        Development</a
+                      >
+                    </div>
+                  </h5>
+                </div>
+
+                <div id="collapse4" class="collapse">
+                  <div class="card-body">
+                    AASI Sports development program is used to improve physical
+                    fitness, support good mental health and build teamwork
+                    skills. It Is targeted towards reinforcing lessons on life
+                    skills for people and youth in particular. Thus our sports
+                    developmental project is an innovation and a creativity to
+                    reinforce health, enhance self-esteem, self reliance,
+                    assertiveness and confidence. It is also used as a tool for
+                    self-control, self-discipline, time management and conflict
+                    prevention that enhances communication, team building and
+                    decision making skills.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2 order-1">
+            <div class="row d-flex justify-content-center">
+              <div class="d-flex pt-1 pb-4">
+                <div class="pr-4 align-self-start">
+                  <i class="fas fa-medkit fa-3x mb-2"></i>
+                  <p>Healthcare</p>
+                </div>
+                <div class="pl-4 align-self-end">
+                  <i class="fas fa-user-graduate fa-3x mb-2"></i>
+                  <p>Education</p>
+                </div>
+              </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+              <div class="d-flex">
+                <div class="p-4 align-self-start">
+                  <i class="fas fa-people-carry fa-3x mb-2"></i>
+                  <p>Development</p>
+                </div>
+                <div class="p-4 align-self-end">
+                  <i class="fas fa-heartbeat fa-3x mb-2"></i>
+                  <p>Sports</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row d-flex justify-content-center">
+              <div class="d-flex">
+                <div class="p-4 align-self-start">
+                  <i class="fas fa-lightbulb fa-3x mb-2"></i>
+                  <p>Innovation</p>
+                </div>
+                <div class="p-4 align-self-end">
+                  <i class="fas fa-chalkboard-teacher fa-3x mb-2"></i>
+                  <p>Training</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--DONATION SECTION-->
+    <section id="donate" class="bg-info text-white py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center py-5">
+            <h1 class="display-4">DONATE NOW</h1>
+            <p class="lead">Make a gift of life. Make a gift of the future.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--MORE DONATION SECTION-->
+    <section id="donate-section" class="bg-light text-muted py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 order-2">
+            <img
+              src="img/donate.jpg"
+              alt="Donation"
+              class="img-fluid mb-3 rounded-circle"
+            />
+          </div>
+          <div class="col-md-6 order-1">
+            <div>
+              <h3>Every donation is valuable</h3>
+              <p class="lead">
+                Whatever contribution you make helps us to create a positive
+                future for people in need. Children, adolescents and families in
+                need face tremendous challenges as they usually lack the
+                resources and have no access to education, health care services
+                as well as the inability of finding work and, thus, face an
+                uncertain future. Aratumi Aminullah Support Initiatives (AASI)
+                helps to support people in need by means of educational and aid
+                projects.<br />
+                Whether you make a one-off donation or provide long-term
+                support, with every contribution you enable people in need to
+                look towards a brighter future. You can help change their lives
+                for the better.
+              </p>
+            </div>
+            <!--MODAL TRIGGER-->
+            <div>
+              <button
+                class="btn btn-info"
+                data-toggle="modal"
+                data-target="#myModal"
+              >
+                DONATE
+              </button>
+
+              <!--MODAL-->
+              <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Donate</h5>
+                      <button class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Kindly make donations to:<br />
+                      BANK: First Bank of Nigeria<br />
+                      ACCOUNT NUMBER: 2034118652<br />
+                      ACCOUNT NAME: Aratumi Aminullah Support Initiatives
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-secondary" data-dismiss="modal">
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--CONTACT-->
+    <section id="contact" class="py-3 bg-primary text-white text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col py-5">
+            <h1 class="display-4">CONTACT US</h1>
+            <div class="lead">Reach out let us make it work</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-section" class="bg-light py5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h3 class="pt-5">Get in Touch</h3>
+            <p>
+              We are always happy to hear from you. If you have any questions,
+              comments, or would like to make a donation feel free to contact us
+              by using our contact details or the form below.
+            </p>
+            <p>
+            <i class="fa fa-map-marker"></i><span class="font-weight-bold"> Address:</span>
+              1st Floor Block F, Shop 9/10, Aratumi Shopping Complex, Km 2,
+              Lagos -Badagry Expressway, Sari- Iganmu, Lagos state, Nigeria.
+            </p>
+            <p>
+            <i class="fa fa-phone"></i><span class="font-weight-bold"> Telephone:</span> +2348023087650 |
+              +2347035966494
+            </p>
+
+            <p>
+            <i class="fa fa-envelope"></i> <span class="font-weight-bold"> E-mail:</span>
+              aasinitiatives@yahoo.com | info@aasinitiatives.org
+            </p>
+            <p>
+              <span class="font-weight-bold">Follow us:</span>
+              <a
+                href="https://web.facebook.com/aratumiaminullah"
+                target="blank"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+            </p>
+
+            
+            <form id ="contact-form" name="contact-form" action="mail.php" method="POST"  onsubmit="return validateForm()" >
+              
+
+              <div class="input-group input-group-lg mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control"
+                  placeholder="Name"
+                  minlength="4"
+                />
+              </div>
+
+
+              <div class="input-group input-group-lg mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </div>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  name="email"
+                  placeholder="Email"
+                />
+              </div>
+
+              <div class="input-group input-group-lg mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-pencil-alt"></i>
+                  </span>
+                </div>
+                <textarea
+                  minlength="10"
+                  cols="50"
+                  class="form-control"
+                  placeholder="Message"
+                  name="message"
+                  id="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+            </form>
+
+            <div>
+            <a class="btn btn-primary btn-block btn-lg" onclick="validateForm()">Submit</a>
+             </div><div class="status" id="status"></div>
+          </div>
+
+          <div class="col-md-4 py-5">
+            <img
+              src="img/contact_us.jpg"
+              alt="Contact us"
+              class="img-fluid rounded-circle"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="bg-primary p-4 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 d-flex self-align-start text-white small">
+            <span>
+              Copyright &copy; <span id="year"></span> Aratumi Aminullah Support
+              Initiatives (AASI)
+            </span>
+          </div>
+
+          <div class="col-md-3 d-flex self-align-end text-dark small">
+            <!--MODAL TRIGGER-->
+
+            <span
+              class="btn-primary"
+              data-toggle="modal"
+              data-target="#footerModal"
+              title="Phone: +2348038029555 | Email: m2bass1@yahoo.com"
+              href=""
+              >Website designed by M2BASS</span
+            >
+
+            <!--MODAL-->
+            <div class="modal" id="footerModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Website designed by M2BASS</h5>
+                    <button class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    Contact us for your professional looking responsive
+                    website:<br />
+                    EMAIL: m2bass1@yahoo.com<br />
+                    PHONE: +2348038029555
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-secondary" data-dismiss="modal">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="http://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      //Get the current year for the copyright
+      $('#year').text(new Date().getFullYear());
+
+      $('.carousel').carousel({
+        interval: 6000,
+        pause: 'hover',
+      });
+
+      //init Scrollspy
+      $('body').scrollspy({ target: '#main-nav' }); //using jquery on body, scrollspy takes in an object with a target of #main-nav
+
+      //Smooth scrolling
+      $('#main-nav a').on('click', function (event) {
+        if (this.hash !== '') {
+          event.preventDefault();
+
+          const hash = this.hash;
+
+          $('html,body').animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800,
+            function () {
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
+
+      //Form
+     
+function validateForm() {
+    // var x =  document.getElementById('name').value;
+    // if (x == "") {
+    //     document.getElementById('status').innerHTML = "Name cannot be empty";
+    //     return false;
+    // }
+    // x =  document.getElementById('email').value;
+    // if (x == "") {
+    //     document.getElementById('status').innerHTML = "Email cannot be empty";
+    //     return false;
+    // } else {
+    //     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    //     if(!re.test(x)){
+    //         document.getElementById('status').innerHTML = "Email format invalid";
+    //         return false;
+    //     }
+    // }
+    // x =  document.getElementById('subject').value;
+    // if (x == "") {
+    //     document.getElementById('status').innerHTML = "Subject cannot be empty";
+    //     return false;
+    // }
+    // x =  document.getElementById('message').value;
+    // if (x == "") {
+    //     document.getElementById('status').innerHTML = "Message cannot be empty";
+    //     return false;
+    // }
+ //get input field values data to be sent to server
+    document.getElementById('status').innerHTML = "Sending...";
+    formData = {
+        'name'     : $('input[name=name]').val(),
+        'email'    : $('input[name=email]').val(),
+        'message'  : $('textarea[name=message]').val()
+    };
+
+
+   $.ajax({
+    url : "mail.php",
+    type: "POST",
+    data : formData,
+    success: function(data, textStatus, jqXHR)
+    {
+
+        $('#status').text(data.message);
+        if (data.code) //If mail was sent successfully, reset the form.
+        $('#contact-form').closest('form').find("input[type=text], textarea").val("");
+    },
+    error: function (jqXHR, textStatus, errorThrown)
+    {
+        $('#status').text(jqXHR);
+    }
+});
+
+
+
+}
+    </script>
+  </body>
+</html>
